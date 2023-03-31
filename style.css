@@ -469,12 +469,15 @@ nav .fa-solid{
 
 
 @media only screen and (max-width: 600px){
-    *{
-        /* overflow-x: hidden; */
-    }
+    
     #header{
         background-image: url(Images/background-phone.jpg);
         
+    }
+
+    #header p {
+       margin-top: -15px;
+        font-size: 25px;
     }
 
     .header-text{

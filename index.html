@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Nabil Faris</title>
+    <!-- Font awesome CDN -->
+    <script src="https://kit.fontawesome.com/43124feaf5.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo-no-background.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#softwares">Softwares</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="https://rxresu.me/nabilfaris50/main-resume-1" target="_blank">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi, I'm <span>Nabil Faris</span></h1>
+            <p>VR Developer</p>
+        </div>
+    </div>
+    
+</div>
+
+<!-- ----------------ABOUT ME SECTION-------------- -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/About me image.JPG" alt="" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am a Unity VR developer and designer who is looking to create games/applications 
+                    that truly make an impact. I am extremely enthusiastic and passionate about 
+                    working with bleeding edge technology and concepts.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programming</span></li>
+                        <li><span>3D Modelling</span></li>
+                        <li><span>Report Writing/Documentation</span></li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Sep 2022 - Feb 2023</span><br>Freelance 3D Designer at Inmagine(123RF)</li>
+                        <li><span>May 2022 - Aug 2022</span><br>3D Art Intern at Inmagine(123RF)</li>
+                        
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>Bachelor of Multimedia(Hons.), Virtual Reality from Multimedia University(MMU)</li>
+                        <li><span>2018-2019</span><br>Foundation in Creative Multimedia from Multimedia University(MMU)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------------SOFTWARES SECTION---------------- -->
+<div id="softwares">
+    <div class="container">
+        <h1 class="sub-title">Softwares</h1>
+        <div class="softwares-list">
+            <div>
+                <h1>Unity</h1>
+                <img src="Images/Unity-logo.png" class="unity">
+            </div>
+            <div>
+                <h1>Blender</h1>
+                <img src="Images/Blender-logo.png" class="blender">
+            </div>
+            <div>
+                <h1 class="subpai-text">Substance Painter</h1>
+                <img src="Images/Substance-painter-logo.png" class="subpai">
+            </div>
+            <div>
+                <h1>VS Code</h1>
+                <img src="Images/VSCode-logo.png" class="VScode">
+            </div>
+        
+            <div>
+                <h1>Maya</h1>
+                <img src="Images/Maya-logo.png" class="maya">
+            </div>
+            <div>
+                <h1 class="Adb-text">Adobe Photoshop</h1>
+                <img src="Images/photoshop-logo.png" class="ps">
+            </div>
+            <div>
+                <h1 class="Adb-text">Adobe Illustrator</h1>
+                <img src="Images/illustrator-logo.png" class="ilt">
+            </div>
+            <div>
+                <h1 class="pp-text">Adobe Premiere Pro</h1>
+                <img src="Images/premiere-pro-logo.png" class="pp">
+            </div>
+            <div>
+                <h1 class="pp-text">Reaper</h1>
+                <img src="Images/reaper-logo.png" class="rp">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ------------LANGUAGES SECTION----------- -->
+<div id="Languages">
+    <div class="container">
+        <h1 class="sub-title">Programming Languages</h1>
+        <div class="languages-list">
+            <div>
+                <h1>C#</h1>
+                <img src="Images/csharp-logo.png" class="c#">
+            </div>
+            <div>
+                <h1>HTML</h1>
+                <img src="Images/Html-logo.png" class="html">
+            </div>
+            <div>
+                <h1>CSS</h1>
+                <img src="Images/css-logo.png" class="css">
+            </div>
+            <div>
+                <h1>Javascript</h1>
+                <img src="Images/js-logo.png" class="js">
+            </div>
+        </div>
+       
+    </div>
+</div>
+<!-- -----------PORTFOLIO SECTION---------- -->
+<div id="portfolio">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/MMM-poster.jpg" alt="mmm poster">
+                <div class="layer">
+                    <h3>My Mechanical Mother</h3>
+                    <p>My Mechanical Mother is a story-driven VR game based on the experiences of a young genius boy who has recently lost his mother.
+                    In an attempt to recreate the love and care that his mother used to give him, he creates a robot that mimics the actions of his mother and tries to find happiness in the likeness.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/Con-vr-poster.png" alt="construction vr poster">
+                <div class="layer">
+                    <h3>Construction VR</h3>
+                    <p>Construction VR is a VR simulator type game that involves the construction of a house. Players will construct the house from 
+                        ground up, putting up the structural beams, wall panels, roofing, etc.<br> Construction VR isn't just a simulator however, it also promotes the 
+                        use of sustainable materials in construction to 
+                        raise awareness and prevent further 
+                        complications towards the planet such as global 
+                        warming.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/bigstep-poster.png" alt="the big step poster">
+                <div class="layer">
+                    <h3>The Big Step</h3>
+                    <p>The Big Step is about a 15 year old boy named Jamil who is trying to save his friend from the clutches of obesity.
+                         Jamil's friend Siti comes back to the kampung from the city for a vacation, but appears
+                          to have become morbidly obese. In an attempt to help his friend lose weight, Jamil goes on a journey
+                           to find various items which will help Siti to lose weight. <br>Players will be playing as Jamil, and will journey through
+                             various environments and locations while needing to solve puzzles and 
+                             mini-games that are of varying difficulty in order to attain the items needed to help 
+                             Siti lose weight. 
+                        </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ---------CONTACT SECTION------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>01345634556</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/nabil-faris-041069202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaSpH7yl0T62MEscWafvY9A%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/NabilFaris20" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    
+                </div>
+                <a href="https://rxresu.me/nabilfaris50/main-resume-1" target="_blank" class="btn btn2">View CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Nabil. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyznn4eRqjDRnnXdSC_U8qhjdkfT5dknehDtSvnTlEH90q1-_p-HIj_ZOMTFRj9tCKi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

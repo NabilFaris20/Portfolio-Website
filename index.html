@@ -24,7 +24,7 @@
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#softwares">Softwares</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#portfolio">Projects</a></li>
                 <li><a href="https://rxresu.me/nabilfaris50/main-resume-1" target="_blank">Resume</a></li>
                 <li><a href="#contact">Contact</a></li>
                 <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
@@ -126,6 +126,10 @@
                 <h1 class="pp-text">Reaper</h1>
                 <img src="Images/reaper-logo.png" class="rp">
             </div>
+            <div>
+                <h1 class="pp-text">Sketchup</h1>
+                <img src="Images/sketchup-logo.png" class="rp">
+            </div>
         </div>
     </div>
 </div>
@@ -157,7 +161,7 @@
 <!-- -----------PORTFOLIO SECTION---------- -->
 <div id="portfolio">
     <div class="container">
-        <div class="sub-title">My Work</div>
+        <div class="sub-title">Projects</div>
         <div class="work-list">
             <div class="work">
                 <img src="Images/MMM-poster.jpg" alt="mmm poster">
@@ -166,36 +170,31 @@
                     <p>My Mechanical Mother is a story-driven VR game based on the experiences of a young genius boy who has recently lost his mother.
                     In an attempt to recreate the love and care that his mother used to give him, he creates a robot that mimics the actions of his mother and tries to find happiness in the likeness.
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="MMM.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="Images/con-vr-poster.png" alt="construction vr poster">
                 <div class="layer">
                     <h3>Construction VR</h3>
-                    <p>Construction VR is a VR simulator type game that involves the construction of a house. Players will construct the house from 
-                        ground up, putting up the structural beams, wall panels, roofing, etc.<br> Construction VR isn't just a simulator however, it also promotes the 
-                        use of sustainable materials in construction to 
-                        raise awareness and prevent further 
-                        complications towards the planet such as global 
-                        warming.
+                    <p>Construction VR is a simulator game where players construct a house, starting from the foundation to the roof. 
+                        It emphasizes sustainable construction practices to raise awareness about environmental issues like global warming.
                     </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="Convr.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
             <div class="work">
                 <img src="Images/bigstep-poster.png" alt="the big step poster">
                 <div class="layer">
                     <h3>The Big Step</h3>
-                    <p>The Big Step is about a 15 year old boy named Jamil who is trying to save his friend from the clutches of obesity.
-                         Jamil's friend Siti comes back to the kampung from the city for a vacation, but appears
-                          to have become morbidly obese. In an attempt to help his friend lose weight, Jamil goes on a journey
-                           to find various items which will help Siti to lose weight. <br>Players will be playing as Jamil, and will journey through
-                             various environments and locations while needing to solve puzzles and 
-                             mini-games that are of varying difficulty in order to attain the items needed to help 
-                             Siti lose weight. 
+                    <p>"The Big Step" is an adventure game where you play as Jamil, 
+                        a 15-year-old boy trying to save his friend Siti from obesity. 
+                        Jamil embarks on a journey to find items that will help Siti lose weight. 
+                        Players solve puzzles and mini-games to obtain these items. 
+                        The game promotes friendship, health, and making positive lifestyle choices. 
+                        Will Jamil succeed in helping Siti? Play and find out in "The Big Step."
                         </p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="bigstep.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
         </div>
@@ -209,8 +208,8 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
-                <p><i class="fa-sharp fa-solid fa-phone"></i>01345634556</p>
+                <p><i class="fa-solid fa-paper-plane"></i>nabilfaris50@gmail.com</p>
+                <!-- <p><i class="fa-sharp fa-solid fa-phone"></i>01345634556</p> -->
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/nabil-faris-041069202?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BaSpH7yl0T62MEscWafvY9A%3D%3D" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/NabilFaris20" target="_blank"><i class="fa-brands fa-github"></i></a>
@@ -230,7 +229,7 @@
         </div>
     </div>
     <div class="copyright">
-        <p>Copyright © Nabil. Made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        <p>Copyright © Nabil.</p>
     </div>
 </div>
 
@@ -268,6 +267,7 @@
       e.preventDefault()
       fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => {
+            
             msg.innerHTML = "Message sent successfully!"
             setTimeout(function(){
                 msg.innerHTML = ""

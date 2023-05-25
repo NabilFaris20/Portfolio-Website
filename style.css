@@ -293,6 +293,11 @@ nav ul li a:hover::after{
     padding-top: 25px;
 }
 
+.languages-list div img.Bs {
+    width: 60%;
+    padding-top: 25px;
+}
+
 .languages-list div:hover {
     background: #db6335;
     transform: translateY(-10px);

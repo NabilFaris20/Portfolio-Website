@@ -236,6 +236,11 @@ nav ul li a:hover::after{
     width: 50%;
     padding-top: 50px;
 }
+.softwares-list div img.rs {
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
 
 .softwares-list div h1.pp-text {
     padding-top: 5px;
